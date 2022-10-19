@@ -3,7 +3,8 @@
 - 👀 I’m interested in :
     Cyber Security,
     Ethical Hacking,
-    Machine Learning /Ai
+    Machine Learning /Ai,
+    Web Dev,
 
 - 🌱 I’m currently learning Cyber Security Website
 
