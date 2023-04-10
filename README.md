@@ -2,11 +2,11 @@
 
 - 👀 I’m interested in :
     Cyber Security,
-    Ethical Hacking,
-    Machine Learning /Ai,
+    Machine Learning/Ai,
     Web Dev,
+    and Game Dev.
 
-- 🌱 I’m currently learning Cyber Security Website
+- 🌱 I’m currently learning python programming languange for Back-End Programming
 
 <!---
 NurHabibAssolihudin/NurHabibAssolihudin is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
