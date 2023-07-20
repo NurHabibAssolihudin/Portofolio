@@ -6,7 +6,7 @@
     Web Dev,
     and Game Dev.
 
-- 🌱 I’m currently learning python programming languange for Back-End Programming
+- 🌱 I’m currently learning microservices arsitecture software for school activity
 
 <!---
 NurHabibAssolihudin/NurHabibAssolihudin is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
