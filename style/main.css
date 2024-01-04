@@ -4,6 +4,10 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body {
+    overflow: hidden;
+}
+
 div.container {
     margin: 0;
     padding: 3em 1em;
