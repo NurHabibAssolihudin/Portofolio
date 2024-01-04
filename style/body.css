@@ -1,0 +1,115 @@
+div.body {
+    background: rgb(255, 230, 202);
+    color: rgb(39, 39, 39);
+}
+
+div.body h2 {
+    display: inline-block;
+    padding: 0.3em 0.5em 0.3em 2em;
+    background-color: rgb(39, 39, 39);
+    color: rgb(255, 230, 202);
+}
+
+div.body .frontend {
+    padding: 2em 5em;
+    text-align: center;
+}
+
+div.body .experiences {
+    padding: 2em 3em;
+}
+
+div.body .experiences div {
+    border-left: 0.5em solid rgb(39, 39, 39);
+    padding: 1em 2em;
+    margin: 0;
+    border-radius: 1em 0 0 1em;
+}
+
+div.body .experiences h3 {
+    margin: 0 0 1em 0.7em;
+    border-bottom: 0.3em solid rgb(39, 39, 39);
+    display: inline-block;
+}
+
+div.body .skills {
+    padding: 2em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.body .skill {
+    margin: 1.3em 1em;
+    padding: 1em;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 0.3em;
+}
+
+div.body .skill .icon {
+    width: 10em;
+    height: 10em;
+    transition: 0.5s;
+}
+
+div.body .skill .icon:hover {
+    filter: grayscale(0%) drop-shadow(0 0 0.3em #000000) !important;
+}
+
+div.body .skill h3 {
+    margin: 1.5em 0;
+}
+
+div.body .project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+div.body .web {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 15em;
+    text-align: justify;
+    margin: 2em;
+    overflow: hidden;
+    border: 5px solid #fff;
+    border-radius: 0.2em;
+    box-shadow: 0px 0px 10px 0.2em rgba(0, 0, 0, 0.5);
+}
+
+div.body .web .preview {
+    width: 100%;
+    height: 10em;
+    background: url(../image/preview.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: inset 0px 0px 3em rgba(0, 0, 0, 0.7);
+    text-align: center;
+    line-height: 10em;
+    filter: blur(2px) grayscale(60%);
+    transition: 0.5s;
+}
+
+div.body .web .preview a {
+    padding: 0.3em;
+    background-color: rgba(255, 255, 255, 0.254);
+    border-radius: 0.2em;
+    color: rgb(39, 39, 39);
+    box-shadow: 0px 0px 3em rgba(0, 0, 0, 0.7);
+}
+
+div.body .web .preview:hover {
+    box-shadow: inset 0px 0px 0.5em 0.3em rgba(0, 0, 0, 0.7);
+    filter: none;
+}
+
+div.body .web h3 {
+    padding: 0.5em 0 0.5em 1em;
+}
+
+div.body .web p {
+    padding: 0 1em 1em 1em;
+}
