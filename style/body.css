@@ -10,13 +10,53 @@ div.body h2 {
     color: rgb(255, 230, 202);
 }
 
-div.body .frontend {
+div.body .personal_information {
     padding: 2em 5em;
-    text-align: center;
+    text-align: justify;
+}
+
+div.body .objective {
+    padding: 2em 5em;
+    text-align: justify;
+}
+
+div.body .educational_background {
+    padding: 2em 3em;
+}
+
+div.body .educational_background div {
+    border-left: 0.5em solid rgb(39, 39, 39);
+    padding: 1em 2em;
+    margin: 0;
+    border-radius: 1em 0 0 1em;
+}
+
+div.body .educational_background h3 {
+    margin: 0 0 1em 0.7em;
+    border-bottom: 0.3em solid rgb(39, 39, 39);
+    display: inline-block;
+}
+
+div.body .achademic_achievement {
+    padding: 2em 3em;
+}
+
+div.body .achademic_achievement div {
+    border-left: 0.5em solid rgb(39, 39, 39);
+    padding: 1em 2em;
+    margin: 0;
+    border-radius: 1em 0 0 1em;
+}
+
+div.body .achademic_achievement h3 {
+    margin: 0 0 1em 0.7em;
+    border-bottom: 0.3em solid rgb(39, 39, 39);
+    display: inline-block;
 }
 
 div.body .experiences {
     padding: 2em 3em;
+    text-indent: 0;
 }
 
 div.body .experiences div {
@@ -30,6 +70,11 @@ div.body .experiences h3 {
     margin: 0 0 1em 0.7em;
     border-bottom: 0.3em solid rgb(39, 39, 39);
     display: inline-block;
+}
+
+div.body .interests {
+    padding: 2em 5em;
+    text-align: justify;
 }
 
 div.body .skills {

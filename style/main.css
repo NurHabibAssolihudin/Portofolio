@@ -14,5 +14,5 @@ div.container {
 }
 
 p.paragraph {
-    text-indent: 3em;
+    padding-left: 3em;
 }
