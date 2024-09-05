@@ -5,7 +5,7 @@
     Electrical Engineer,
     and Astronomy.
 
-- 🌱 I’m currently doing reserch and development in robotic for my astronomy project.
+- 🌱 I’m currently doing reserch and development in robotic technology for my astronomy project.
 
 <!---
 NurHabibAssolihudin/NurHabibAssolihudin is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
