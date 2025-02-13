@@ -1,0 +1,19 @@
+header .greetings {
+    font-size: 11.3em;
+}
+
+header h1 {
+    font-size: 5.53em;
+}
+
+header h2 {
+    font-size: 3.5em;
+}
+
+header h3 {
+    font-size: 1.5em;
+}
+
+.photo-profile {
+    height: 48em;
+}

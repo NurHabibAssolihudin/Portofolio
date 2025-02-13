@@ -3,22 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/main.css">
-    <link rel="stylesheet" href="style/header.css">
-    <link rel="stylesheet" href="style/body.css">
-    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" media="(max-width: 500px)" href="./style/mobile.css">
+    <link rel="stylesheet" media="(min-width: 501px) and (max-width: 999px)" href="./style/tablet.css">
+    <link rel="stylesheet" media="(min-width: 1000px) and (max-width: 1999px)" href="./style/desktop.css">
+    <link rel="stylesheet" media="(min-width: 2000px)" href="./style/tv.css">
     <title>NurHabib Assolihudin</title>
 </head>
 <body>
+    <nav><div class="localtime">
+    <span style="color: #9a9a9a;">LOCAL/</span><span id="time"></span>
+    <script>
+        function updateTime() {
+            const timeElement = document.getElementById('time');
+            const now = new Date();
+            const timeString = now.toLocaleTimeString('id-ID');
+            timeElement.textContent = timeString;
+        }
+        
+        updateTime();
+        setInterval(updateTime, 1000);
+    </script>
+    </div><div class="fast-nav"><a href="#portfolio" class="portfolio">SEE MORE</a><a href="#contact" class="contact">CONTACT NOW</a></div></nav>
     <header>
-        <div class="back-photo-profile">
-            <div class="photo-profile"></div>
-        </div>
-        <h2>NURHABIB ASSOLIHUDIN</h2>
-        <h5>SOFTWARE ENGINEER & ARTIST</h5>
+        <span class="greetings">HELLO. I AM</span>
+        <h1>NURHABIB ASSOLIHUDIN</h1>
+        <h2>ART ENGINEER FOR A BETTER WORLD</h2>
+        <div class="photo-profile"></div>
+        <br>
+        <h3>
+            <a href="https://github.com/NurHabibAssolihudin" target="_blank" id="github-link">GitHub</a> | 
+            <a href="https://www.instagram.com/nurhabib_as/" target="_blank" id="instagram-link">Instagram</a> | 
+            <a href="https://www.linkedin.com/in/nurhabib-assolihudin" target="_blank" id="linkedin-link">Linkedin</a>
+        </h3>
     </header>
-    <div class="body">
-        <h2>PERSONAL INFORMATION</h2>
+    <!-- <div class="body">
+        <h2>ABOUT ME</h2>
         <div class="personal_information">
             <p>
                 Hello, My name is NURHABIB ASSOLIHUDIN.<br>
@@ -262,31 +282,9 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <footer>
-        <div class="top"><h1>ABOUT ME</h1></div>
-        <div class="bottom">
-            <div class="left">
-                <h3>Social Media</h3>
-                <ul>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="https://id.linkedin.com/in/nurhabib-assolihudin-940170241" target="_blank">Linkedin</a></li>
-                </ul>
-            </div>
-            <div class="center">
-                <h3>Other</h3>
-                <ul>
-                    <li><a href="https://www.youtube.com/@nurhabibassolihudin7795" target="_blank">Youtube</a></li>
-                    <li><a href="#">Itch.io</a></li>
-                    <li><a href="https://github.com/NurHabibAssolihudin" target="_blank">Github</a></li>
-                </ul></div>
-            <div class="right">
-                <h3>Description</h3>
-                <p class="paragraph">I'm a software engineer who brings together art and programs to produce something beautiful.</p>
-            </div>
-        </div>
-        <div class="copyright"><center><h6>CV By NurHabib Assolihudin</h6></center></div>
+        <div class="copyright"><center>Created With ❤ By NurHabib Assolihudin</center></div>
     </footer>
 </body>
 </html>

@@ -1,0 +1,38 @@
+nav {
+    font-size: small;
+    margin-bottom: 1em;
+}
+
+nav div {
+    margin: 1em;
+}
+
+nav a {
+    font-size: small;
+}
+
+nav a.portfolio {
+    display: none;
+}
+
+header {
+    justify-content: center;
+    align-items: start;
+}
+
+header .greetings {
+    font-size: larger;
+}
+
+header h1, header h2 {
+    font-size: large;
+}
+
+.photo-profile {
+    height: 12em;
+    margin-bottom: 1em;
+}
+
+header h3 {
+    font-size: small;
+}

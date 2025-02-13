@@ -1,0 +1,23 @@
+* {
+    font-size: 1.5rem;
+}
+
+a {
+    font-size: 1.5rem;
+}
+
+header .greetings {
+    font-size: 9.34em;
+}
+
+header h1 {
+    font-size: 4.6em;
+}
+
+header h2 {
+    font-size: 3em;
+}
+
+.photo-profile {
+    height: 24em;
+}

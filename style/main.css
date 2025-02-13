@@ -1,11 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* General */
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
     overflow-x: hidden;
+    background-color: #000000;
+    background-image: url(../image/header-background1.png);
+    background-position: center;
+    background-size: contain;
+    color: rgb(255, 255, 255);
 }
 
 div.container {
@@ -15,4 +26,281 @@ div.container {
 
 p.paragraph {
     padding-left: 3em;
+}
+
+/* Navigation */
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto Mono';
+    font-weight: 600;
+}
+
+nav .localtime {
+    font-size: larger;
+}
+
+nav div {
+    margin: 2em;
+}
+
+nav a {
+    font-size: large;
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: 2px solid #fff;
+    border-radius: 10em;
+    margin: 0.5em;
+    transition: 0.5s;
+    text-wrap-mode: nowrap;
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Header */
+
+header {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Flex';
+}
+
+header .greetings {
+    font-weight: bold;
+    color: #9a9a9a;
+    transition: 0.3s;
+}
+
+header h1 {
+    color: #9a9a9a;
+    transition: 0.3s;
+}
+
+header h2 {
+    color: #9a9a9a;
+    transition: 0.3s;
+}
+
+header h1:hover, header h2:hover, header .greetings:hover {
+    color: #fff;
+}
+
+.photo-profile {
+    width: 80%;
+    margin: 2em 0;
+    background-image: url(../image/profile1.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 0.3em solid #fff;
+    box-shadow: 0px 0px 5px 0.3em rgba(0, 0, 0, 0.5);
+    border-radius: 0.2em;
+    transition: 0.5s;
+}
+
+.photo-profile:hover {
+    background-image: url(../image/profile2.png);
+}
+
+header h3 a {
+    color: white;
+    padding: 1em;
+}
+
+header #github-link {
+    cursor: url(../svg/github.svg), pointer;
+}
+
+header #instagram-link {
+    cursor: url(../svg/instagram.svg), pointer;
+}
+
+header #linkedin-link {
+    cursor: url(../svg/linkedin.svg), pointer;
+}
+
+/* Body */
+
+div.body h2 {
+    display: inline-block;
+    padding: 0.3em 0.5em 0.3em 2em;
+    background-color: rgb(39, 39, 39);
+    color: rgb(255, 230, 202);
+}
+
+div.body .personal_information {
+    padding: 2em 5em;
+    text-align: justify;
+}
+
+div.body .objective {
+    padding: 2em 5em;
+    text-align: justify;
+}
+
+div.body .educational_background {
+    padding: 2em 3em;
+}
+
+div.body .educational_background div {
+    border-left: 0.5em solid rgb(39, 39, 39);
+    padding: 1em 2em;
+    margin: 0;
+    border-radius: 1em 0 0 1em;
+}
+
+div.body .educational_background h3 {
+    margin: 0 0 1em 0.7em;
+    border-bottom: 0.3em solid rgb(39, 39, 39);
+    display: inline-block;
+}
+
+div.body .achademic_achievement {
+    padding: 2em 3em;
+}
+
+div.body .achademic_achievement div {
+    border-left: 0.5em solid rgb(39, 39, 39);
+    padding: 1em 2em;
+    margin: 0;
+    border-radius: 1em 0 0 1em;
+}
+
+div.body .achademic_achievement h3 {
+    margin: 0 0 1em 0.7em;
+    border-bottom: 0.3em solid rgb(39, 39, 39);
+    display: inline-block;
+}
+
+div.body .experiences {
+    padding: 2em 3em;
+    text-indent: 0;
+}
+
+div.body .experiences div {
+    border-left: 0.5em solid rgb(39, 39, 39);
+    padding: 1em 2em;
+    margin: 0;
+    border-radius: 1em 0 0 1em;
+}
+
+div.body .experiences h3 {
+    margin: 0 0 1em 0.7em;
+    border-bottom: 0.3em solid rgb(39, 39, 39);
+    display: inline-block;
+}
+
+div.body .interests {
+    padding: 2em 5em;
+    text-align: justify;
+}
+
+div.body .skills {
+    padding: 2em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.body .skill {
+    margin: 1.3em 1em;
+    padding: 1em;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 0.3em;
+}
+
+div.body .skill .icon {
+    width: 10em;
+    height: 10em;
+    transition: 0.5s;
+}
+
+div.body .skill .icon:hover {
+    filter: grayscale(0%) drop-shadow(0 0 0.3em #000000) !important;
+}
+
+div.body .skill h3 {
+    margin: 1.5em 0;
+}
+
+div.body .project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+div.body .web {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 15em;
+    text-align: justify;
+    margin: 2em;
+    overflow: hidden;
+    border: 5px solid #fff;
+    border-radius: 0.2em;
+    box-shadow: 0px 0px 10px 0.2em rgba(0, 0, 0, 0.5);
+}
+
+div.body .web .preview {
+    width: 100%;
+    height: 10em;
+    background: url(../image/preview.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: inset 0px 0px 3em rgba(0, 0, 0, 0.7);
+    text-align: center;
+    line-height: 10em;
+    filter: blur(2px) grayscale(60%);
+    transition: 0.5s;
+}
+
+div.body .web .preview a {
+    padding: 0.3em;
+    background-color: rgba(255, 255, 255, 0.254);
+    border-radius: 0.2em;
+    color: rgb(39, 39, 39);
+    box-shadow: 0px 0px 3em rgba(0, 0, 0, 0.7);
+}
+
+div.body .web .preview:hover {
+    box-shadow: inset 0px 0px 0.5em 0.3em rgba(0, 0, 0, 0.7);
+    filter: none;
+}
+
+div.body .web h3 {
+    padding: 0.5em 0 0.5em 1em;
+}
+
+div.body .web p {
+    padding: 0 1em 1em 1em;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+footer div {
+    width: 100%;
+}
+
+footer .copyright {
+    padding: 0.7em 0;
+    color: rgb(255, 230, 202);
 }
